@@ -1,0 +1,13 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2{
+    color:#333;
+}
+.img_wrap img{
+    height: 200px;
+    margin-right: 10px;
+}
+.mt40{
+    margin-top:40px;
+}
