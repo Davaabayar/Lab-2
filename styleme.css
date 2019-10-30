@@ -17,9 +17,6 @@ p::first-letter {
 .validate{
     margin:40px 0;
 }
-.classlist{
-    list-style: cross-fade();
-}
 .classlist span{
     font-weight: 600;
 }
@@ -35,7 +32,6 @@ p::first-letter {
 .fancy li:before{
     content: counter(list-counter);
     counter-increment: list-counter;
-    text-transform: rotate(90deg);   
     font-family: fantasy;
     color: #903;
     padding-right: 5px;
