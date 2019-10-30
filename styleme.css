@@ -11,3 +11,47 @@ h2{
 .validate{
     margin:40px 0;
 }
+.diamond a{
+    color:blue;
+    text-decoration: none;
+    font-style: italic;
+    margin-left:5px;
+}
+.classlist{
+    list-style: cross-fade();
+}
+.classlist span{
+    font-weight: 600;
+}
+.fancy{
+    counter-reset: list-counter;
+    list-style: none;
+    float:left;
+}
+.fancy li{
+    margin: 1em 0;    
+}
+.fancy li:before{
+    content: counter(list-counter);
+    counter-increment: list-counter;
+    text-transform: rotate(90deg);
+    width: 1em;
+    padding: .5em;
+    margin-right: 1em;
+    border: .15em solid #2196F3;
+    color: #2196F3;
+    line-height: 31px;
+    text-align: center;
+    display: inline-block;
+    font-family: fantasy;
+    font-size: 23px;
+    
+}
+.clr{
+    content: "";
+    clear:both;
+    display:table;
+}
+.float-left{
+    float:left;
+}
