@@ -1,21 +1,21 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h2{
-    color:#333;
+p{
+    font-size: 18px;
 }
+p::first-letter {
+    color: #903;
+    font-family: Georgia;
+    font-size: 60px;
+    padding-right: 8px;
+ }
 .img_wrap img{
     height: 200px;
     margin-right: 10px;
 }
 .validate{
     margin:40px 0;
-}
-.diamond a{
-    color:blue;
-    text-decoration: none;
-    font-style: italic;
-    margin-left:5px;
 }
 .classlist{
     list-style: cross-fade();
@@ -26,7 +26,8 @@ h2{
 .fancy{
     counter-reset: list-counter;
     list-style: none;
-    float:left;
+    margin-left: 0;
+    padding-left: 10px;
 }
 .fancy li{
     margin: 1em 0;    
@@ -34,18 +35,10 @@ h2{
 .fancy li:before{
     content: counter(list-counter);
     counter-increment: list-counter;
-    text-transform: rotate(90deg);
-    width: 1em;
-    padding: .5em;
-    margin-right: 1em;
-    border: .15em solid #2196F3;
-    color: #2196F3;
-    line-height: 31px;
-    text-align: center;
-    display: inline-block;
+    text-transform: rotate(90deg);   
     font-family: fantasy;
-    font-size: 23px;
-    
+    color: #903;
+    padding-right: 5px;
 }
 .clr{
     content: "";
@@ -54,4 +47,20 @@ h2{
 }
 .float-left{
     float:left;
+}
+.fancy a{
+    text-decoration: none;
+}
+.fancy a:hover{
+    text-decoration: underline;
+}
+dl{
+    margin-left:15px;
+}
+dt{
+    font-weight: 600;  
+    color: #903;
+}
+.highligthcolor{
+    color: #903;
 }
